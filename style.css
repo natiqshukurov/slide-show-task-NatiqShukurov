@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(to right, #0760b9, #be0f58);
+}
+
+#container {
+  max-width: 600px;
+  width: 100%;
+  max-height: 330px;
+  background: transparent;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: rgba(2, 130, 250, 0.25) 0px 54px 55px,
+    rgba(2, 130, 250, 0.25) 0px -12px 30px, rgba(2, 130, 250, 0.25) 0px 4px 6px,
+    rgba(2, 130, 250, 0.25) 0px 12px 13px, rgba(2, 130, 250, 0.25) 0px -3px 5px;
+}
+
+#container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-right > button {
+  width: 100px;
+  height: 50px;
+  background: #295ba1;
+  border: none;
+  border-radius: 30px;
+  box-shadow: #a41a66 0px 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.btn-left > button {
+  width: 100px;
+  height: 50px;
+  background: #ca1112;
+  border: none;
+  border-radius: 30px;
+  box-shadow: rgba(2, 130, 250, 0.25) 0px 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #fff;
+}
+
+.btn-right > button:hover {
+  background: rgb(0, 175, 245);
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+
+.btn-left > button:hover {
+  background: rgb(0, 175, 245);
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(194, 148, 32);
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
